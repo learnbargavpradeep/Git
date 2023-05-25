@@ -24,4 +24,4 @@ git cat-file -p <commit id / directive id>
 # blob (file)
 # auther (details about email and name of commiter)
 git push origin main
-git push --set-upstrem origin <branch name>
+git push --set-upstream origin <branch name>
