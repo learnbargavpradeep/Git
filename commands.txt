@@ -2,10 +2,24 @@ git --version
 git init
 git status 
 git add .
+git restore --staged <filename>
+git clean -df <folderpath>
 git config --list
 git config --global user.emial "emailaddress@gmil.com"
 git config --global user.name "git account name"
 git commit -m "message"
 git commit -a -m "message"
+git log
+git log --oneline
 git branch
+git branch <name of the barnch>
+git checkout -b <name of the barnch>
+git checkout <branch name>
+# plumbing commands
+git cat-file -t <commit id>
+git cat-file -p <commit id / directive id>
+# tree (folder/ directory)
+# parent  (previous commit)
+# blob (file)
+# auther (details about email and name of commiter)
 
