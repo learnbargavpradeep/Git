@@ -1,7 +1,11 @@
 git --version
+git init
 git status 
 git add .
+git config --list
 git config --global user.emial "emailaddress@gmil.com"
 git config --global user.name "git account name"
 git commit -m "message"
+git commit -a -m "message"
+git branch
 
