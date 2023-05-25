@@ -23,4 +23,5 @@ git cat-file -p <commit id / directive id>
 # parent  (previous commit)
 # blob (file)
 # auther (details about email and name of commiter)
-
+git push origin main
+git push --set-upstrem origin <branch name>
