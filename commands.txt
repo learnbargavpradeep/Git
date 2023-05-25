@@ -15,6 +15,7 @@ git branch
 git branch <name of the barnch>
 git checkout -b <name of the barnch>
 git checkout <branch name>
+git branch --delete <name of the branch>
 # plumbing commands
 git cat-file -t <commit id>
 git cat-file -p <commit id / directive id>
