@@ -12,6 +12,7 @@ git commit -a -m "message"
 git log
 git log --oneline
 git branch
+git branch -m <renaming branch>
 git branch <name of the barnch>
 git checkout -b <name of the barnch>
 git checkout <branch name>
@@ -25,3 +26,4 @@ git cat-file -p <commit id / directive id>
 # auther (details about email and name of commiter)
 git push origin main
 git push --set-upstream origin <branch name>
+git merge <source branch>
