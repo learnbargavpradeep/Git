@@ -13,9 +13,11 @@ git log
 git log --oneline
 git log --oneline --graph --all
 git branch
+git branch -m <renaming branch>
 git branch <name of the barnch>
 git checkout -b <name of the barnch>
 git checkout <branch name>
+git branch --delete <name of the branch>
 # plumbing commands
 git cat-file -t <commit id>
 git cat-file -p <commit id / directive id>
@@ -23,4 +25,6 @@ git cat-file -p <commit id / directive id>
 # parent  (previous commit)
 # blob (file)
 # auther (details about email and name of commiter)
-
+git push origin main
+git push --set-upstream origin <branch name>
+git merge <source branch>
