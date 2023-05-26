@@ -11,6 +11,7 @@ git commit -m "message"
 git commit -a -m "message"
 git log
 git log --oneline
+git log --oneline --graph --all
 git branch
 git branch <name of the barnch>
 git checkout -b <name of the barnch>
