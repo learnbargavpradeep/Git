@@ -2,16 +2,23 @@ git --version
 git init
 git status 
 git add .
+git add -A
 git restore --staged <filename>
 git clean -df <folderpath>
 git config --list
 git config --global user.emial "emailaddress@gmil.com"
 git config --global user.name "git account name"
+git config --local user.emial "emailaddress@gmil.com"
+git config --local user.name "git account name"
 git commit -m "message"
 git commit -a -m "message"
+git commit --amend
 git log
 git log --oneline
+git log --oneline --graph --all
+git reflog
 git branch
+git branch -a
 git branch -m <renaming branch>
 git branch <name of the barnch>
 git checkout -b <name of the barnch>
@@ -26,4 +33,14 @@ git cat-file -p <commit id / directive id>
 # auther (details about email and name of commiter)
 git push origin main
 git push --set-upstream origin <branch name>
+git pull
+git pull --rebace
+git push --force
 git merge <source branch>
+git merge <source branch> --no-ff
+git clone <url>
+git remote add origin <url>
+git rebace <where to rebace, branchname> (execute at rebace branch)
+git rebace -i HEAD~<commit number>
+git rebace --continue
+git cherry-pick <cid > (execute at where we need branch)
